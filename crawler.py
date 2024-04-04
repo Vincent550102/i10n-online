@@ -8,10 +8,15 @@ for temp in temps:
     parts = re.split(r'&lt;br&gt;|/|（.*?）', temp[2])
     parts = [part.strip() for part in parts if parts]
     for part in parts:
-        r = requests.post("https://api.zhconvert.org/convert", json={
-            "converter": "Traditional",
-            "text": part
-        }).json()
+        while True:
+            try:
+                r = requests.post("https://api.zhconvert.org/convert", json={
+                    "converter": "Traditional",
+                    "text": part
+                }).json()
+                break
+            except:
+                pass
         datas.append([
             temp[0].split("&lt;br&gt;")[0],
             temp[1].strip(),
