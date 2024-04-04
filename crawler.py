@@ -5,6 +5,8 @@ r = requests.get("https://hackmd.io/@l10n-tw/glossaries", headers={'User-Agent':
 temps = re.findall(r"\|(.*?)\|(.*?)\|(.*?)\|(.*?)\|", r.text)[3:]
 datas = []
 for temp in temps:
+    if not temp[1].strip() or not temp[2].strip():
+        continue
     parts = re.split(r'&lt;br&gt;|/|（.*?）', temp[2])
     parts = [part.strip() for part in parts if parts]
     for part in parts:
