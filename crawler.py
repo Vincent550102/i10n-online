@@ -8,7 +8,7 @@ for temp in temps:
     if not temp[1].strip() or not temp[2].strip():
         continue
     parts = re.split(r'&lt;br&gt;|/|（.*?）', temp[2])
-    parts = [part.strip() for part in parts if parts]
+    parts = [part.strip() for part in parts if part]
     for part in parts:
         while True:
             try:
