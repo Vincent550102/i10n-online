@@ -4,7 +4,7 @@ import json
 r = requests.get("https://hackmd.io/@l10n-tw/glossaries", headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36'})
 temps = re.findall(r"\|(.*?)\|(.*?)\|(.*?)\|(.*?)\|", r.text)[3:]
 datas = []
-for temp in temps[:5]:
+for temp in temps:
     parts = re.split(r'&lt;br&gt;|/|（.*?）', temp[2])
     parts = [part.strip() for part in parts if parts]
     for part in parts:
