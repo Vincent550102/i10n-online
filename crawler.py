@@ -28,5 +28,4 @@ for temp in temps:
 
     print(parts)
 with open('datas.json', 'w', encoding="utf-8") as f:
-
     json.dump(datas, f, sort_keys=True, indent=4, ensure_ascii=False)
