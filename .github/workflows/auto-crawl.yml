@@ -19,7 +19,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests # 或者其他你的脚本所需要的依赖
+          pip install requests
 
       - name: Run crawler
         run: python crawler.py
