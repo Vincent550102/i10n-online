@@ -3,7 +3,7 @@
         "32-bit",
         "32 位元",
         "32 位",
-        "bit 之所以翻譯為「位元」，是避免歧異，如 &#34;32-bit integer&#34; 簡體中文是「三十二位整数」，bit 乍看就成為量詞，與本意牴觸。"
+        "bit 之所以翻譯為「位元」，是避免歧異，例如 &#34;32-bit integer&#34; 在簡體中文寫作「三十二位整数」，bit 乍看就成為量詞，與本意牴觸。"
     ],
     [
         "64-bit",
@@ -237,7 +237,7 @@
         "Concurrent",
         "並行",
         "並發",
-        "請參見[《並行程式設計: 概念》](https://hackmd.io/@sysprog/concurrency-concepts)&lt;br&gt;須注意 Apple 將 Sidecar 也譯為並行，與本條無關"
+        "請參見〈[並行程式設計: 概念](https://hackmd.io/@sysprog/concurrency-concepts)〉&lt;br&gt;須注意 Apple 將 Sidecar 也譯為並行，與本條無關"
     ],
     [
         "Column",
@@ -489,7 +489,7 @@
         "Function",
         "函式",
         "函數",
-        "若要表達為程式語言的一種結構，建議譯為「函式」&lt;br&gt;請參閱[《你所不知道的 C 語言：函式呼叫篇》](https://hackmd.io/@sysprog/c-function#%E7%B0%A1%E4%BB%8B)"
+        "若要表達為程式語言的一種結構，建議譯為「函式」&lt;br&gt;請參閱〈[你所不知道的 C 語言：函式呼叫篇](https://hackmd.io/@sysprog/c-function#%E7%B0%A1%E4%BB%8B)〉"
     ],
     [
         "Gateway",
@@ -807,7 +807,7 @@
         "Process",
         "處理程序",
         "進程",
-        "微軟的稱呼原為「處理程序」，近年來則改用「處理序」&lt;br&gt;關於同樣翻譯為「進程」的討論參閱 [Telegram 討論串](https://t.me/l10n_tw/28168) &lt;br&gt; 而關於「行程」的稱呼請參閱[《Linux 核心設計: 不僅是個執行單元的 Process》](https://hackmd.io/@sysprog/linux-process#%E8%AA%B0%E6%AE%BA%E4%BA%86-Process%EF%BC%9F)"
+        "微軟的稱呼原為「處理程序」，近年來則改用「處理序」&lt;br&gt;關於同樣翻譯為「進程」的討論參閱 [Telegram 討論串](https://t.me/l10n_tw/28168) &lt;br&gt; 而關於「行程」的稱呼請參閱〈[Linux 核心設計: 不僅是個執行單元的 Process](https://hackmd.io/@sysprog/linux-process#%E8%AA%B0%E6%AE%BA%E4%BA%86-Process%EF%BC%9F)〉"
     ],
     [
         "Program",
@@ -855,7 +855,7 @@
         "Render",
         "呈現",
         "渲染",
-        "關於不建議使用「渲染」翻譯的原因，參閱[《論 Render 翻譯（算繪/演繹）》](https://breezymove.blogspot.com/2013/12/render.html)及〈[資訊科技詞彙翻譯](https://hackmd.io/@sysprog/it-vocabulary)〉"
+        "關於不建議使用「渲染」翻譯的原因，參閱〈[論 Render 翻譯（算繪/演繹）](https://breezymove.blogspot.com/2013/12/render.html)〉及〈[資訊科技詞彙翻譯](https://hackmd.io/@sysprog/it-vocabulary)〉"
     ],
     [
         "Recursion&lt;br&gt;Recursive",
